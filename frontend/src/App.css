@@ -106,3 +106,18 @@ input:focus,
 button:focus {
   outline: none;
 }
+
+@media screen and (max-width:768px) {
+  .app-wrapper {
+    min-width: 300px;
+    min-height: 500px;
+  }
+
+  .task-input {
+    width: 200px;
+  }
+
+  .list_buttons {
+    margin-left: -20px;
+  }
+}
